@@ -16,7 +16,7 @@ const Helmet = ({ theme = {} }) => (
     `}
     render={data => {
       const { name, description } = data.contentfulAbout;
-      const title = `${name} Portofolio`;
+      const title = `${name}`;
 
       return (
         <ReactHelmet>
