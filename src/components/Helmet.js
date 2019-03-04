@@ -20,6 +20,7 @@ const Helmet = ({ theme = {} }) => (
 
       return (
         <ReactHelmet>
+          <html lang="en" />
           <meta charSet="utf-8" />
           <title>{title}</title>
           <meta name="description" content={description} />
