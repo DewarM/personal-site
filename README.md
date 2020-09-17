@@ -1,6 +1,10 @@
 # Personal site
 
-## Pulling in updates
+## Adding other submodules
+
+`git submodule add https://github.com/DewarM/{PROJECT}.git`
+
+## Pulling in updates from submodules
 
 `git pull`
 
