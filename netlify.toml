@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/test-path"
+  from = "/test-path/*"
   to = "https://hardcore-mirzakhani-1fb8d2.netlify.app/"
   status = 200
