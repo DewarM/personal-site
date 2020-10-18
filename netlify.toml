@@ -1,0 +1,23 @@
+[build]
+  # Default build command.
+  command = "node build.js"
+
+
+[dev]
+  framework = "#static"
+  publish = "./"
+
+[[redirects]]
+  from = "/cg-from-scratch/*"
+  to = "https://cg-from-scratch.netlify.app/cg-from-scratch/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/fast-paced-multiplayer/*"
+  to = "https://fast-paced-multiplayer.netlify.app/fast-paced-multiplayer/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/fast_paced_multiplayer/*"
+  to = "https://fast-paced-multiplayer.netlify.app/fast-paced-multiplayer/:splat"
+  status = 301
