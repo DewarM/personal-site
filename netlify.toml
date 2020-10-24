@@ -21,3 +21,8 @@
   from = "/fast_paced_multiplayer/*"
   to = "https://fast-paced-multiplayer.netlify.app/fast-paced-multiplayer/:splat"
   status = 301
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://wonderful-euclid-55e127.netlify.app/:splat"
+  status = 200
